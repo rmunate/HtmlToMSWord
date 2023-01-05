@@ -1,4 +1,4 @@
-# HTML-TO-MS-WORD-LARAVEL-PHP
+# HTML a MSWORD
 Exportar Contenido HTML a MS WORD en formato .doc (Esta clase es útil tanto en PHP estructurado como para uso bajo Laravel)
 Para usarla en PHP estructurado, por favor cambiar “namespace App\Services;” Linea (3) por el nombre que corresponda o eliminarlo.
 
