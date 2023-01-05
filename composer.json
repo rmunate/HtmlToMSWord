@@ -1,0 +1,39 @@
+{
+    "name": "rmunate/html-to-msword",
+    "description": "Exportar Contenido HTML a MS WORD en formato .DOC",
+    "keywords": [
+        "word",
+        "doc",
+        "docx",
+        "msword",
+        "altum",
+        "rmunate"
+    ],
+    "homepage": "https://github.com/rmunate/HtmlToMSWord",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rmunate\\HtmlToMsword\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Raul Mauricio Uñate Castro",
+            "email": "raulmauriciounate@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        
+    },
+    "extra" : {
+        "branch-alias" : {
+            "dev-main": "v2.0.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
