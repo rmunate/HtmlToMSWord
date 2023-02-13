@@ -14,13 +14,13 @@ Para usarla en PHP estructurado, por favor cambiar “namespace App\Services;”
 ## Instalación
 # Instalar a través de Composer
 
-```sh
-composer require rmunate/html-to-msword
+```console
+composer require rmunate/html-to-msword v2.0.x-dev
 ```
 
 ## Ejemplo de Uso
 
-```sh
+```php
 
 #Creacion Instancia Objeto. (Importar el USO de la Clase)
 $msWord = new HtmlToWord(); 

@@ -9,7 +9,8 @@ namespace Rmunate\HtmlToMsword;
  * raulmauriciounate@gmail.com
  */
 
-class HtmlToWord {
+class HtmlToWord 
+{
 
 	/* Porpiedades del Objeto */
 	private $doc_file_separator;

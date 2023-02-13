@@ -1,6 +1,6 @@
 {
     "name": "rmunate/html-to-msword",
-    "description": "Exportar Contenido HTML a MS WORD en formato .DOC",
+    "description": "Exportar Contenido HTML a MS WORD en formato .doc",
     "keywords": [
         "word",
         "doc",

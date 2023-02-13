@@ -1,6 +1,6 @@
 <?php 
 
-//Creacion Instancia Objeto. (Importar el USO de la Clase)
+//Creacion Instancia Objeto. (Importar el USO de la Clase)//
 $msWord = new HtmlToWord(); 
 
 //Tipo de Codificación (Opcional) por defecto UTF-8.
