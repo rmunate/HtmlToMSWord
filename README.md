@@ -1,24 +1,24 @@
-# HTML a MSWORD
+# HTML a MS_WORD (PHP | LARAVEL)
+> [![Raul Mauricio Uñate Castro](https://storage.googleapis.com/lola-web/storage_apls/RecursosCompartidos/LogoGithubLibrerias.png)](#)
+
 Exportar Contenido HTML a MS WORD en formato .doc (Esta clase es útil tanto en PHP estructurado como para uso bajo Laravel)
-Para usarla en PHP estructurado, por favor cambiar “namespace App\Services;” Linea (3) por el nombre que corresponda o eliminarlo.
 
 ## Características
-
 - Mantiene el formato del HTMl al pasarlo a Word.
-- Permite usar estilos CSS para dar mejor formato al documento (No usar frameworks o librertias de Estilos).
+- Permite usar estilos CSS para dar mejor formato al documento (No soporta frameworks o librertias de Estilos).
 - Permite usar imágenes locales o por URL para exportarlas dentro del documento sin necesidad de exportar carpetas adicionales.
 - Permite usar diferentes tipos de codificación.
 - Permite ejecutar remplazos al HTMl antes de parcearlo.
 - Evita que el disco del servidor de aplicación se llene de archivos basura permitiendo eliminarlos.
 
-## Instalación
-# Instalar a través de Composer
+# Instalación
+## _Instalación a través de Composer_
 
 ```console
 composer require rmunate/html-to-msword v2.0.x-dev
 ```
 
-## Ejemplo de Uso
+## Metodos
 
 ```php
 
@@ -73,9 +73,7 @@ $msWord->getRouteFile();
 
 ```
 
-## Desarrollador
-- Ingeniero, Raúl Mauricio Uñate Castro
-- raulmauriciounate@gmail.com
+## Mantenedores
+- Ingeniero, Raúl Mauricio Uñate Castro (raulmauriciounate@gmail.com)
 
-## Open Source
-MIT
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
